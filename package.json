@@ -1,0 +1,48 @@
+{
+  "name": "means-business-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-plugin-relay": "^1.7.0-rc.1",
+    "bootstrap": "4",
+    "env-cmd": "^8.0.2",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "gh-pages": "^2.0.1",
+    "jest-dom": "^2.1.0",
+    "jest-enzyme": "^7.0.0",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.4",
+    "popper.js": "^1.14.4",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.5",
+    "react-test-renderer": "^16.5.2",
+    "react-testing-library": "^5.2.0",
+    "reactstrap": "^6.5.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "start": "react-scripts start",
+    "build:staging": "env-cmd .env.staging npm run build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "https://means-business.com",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "prettier": "1.14.3"
+  }
+}
