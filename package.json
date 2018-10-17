@@ -31,7 +31,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://means-business.com",
+  "homepage": "https://means-business.github.io",
   "eslintConfig": {
     "extends": "react-app"
   },
